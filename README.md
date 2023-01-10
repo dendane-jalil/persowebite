@@ -1,2 +1,2 @@
 # persowebite
-My personal website (still under construction !!!)
+My collection of  websites (still under construction !!!)
