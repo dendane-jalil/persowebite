@@ -1,0 +1,105 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+nav{
+    height: 70px;
+    background-color: #580752;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 1rem
+}
+.logo{
+color: #ffffff;
+font-size: 1.5rem;
+font-weight: bold;
+font-style: italic;
+padding: 0 2rem;
+background-image: linear-gradient(90deg, #e42e6a, #f0ac0d);
+background-position: center;
+border-radius: 10em;
+background-size: 100% 50%;
+  }
+.logo:hover{
+    color: #580752;
+}
+nav a{
+    text-decoration: none;
+    color: pink;
+    padding: 1rem;}
+nav a:hover {
+        color: #fffb18;
+        font-size: 130%;
+        font-weight: bold;
+      }
+    .hero{
+        background:  linear-gradient(rgb(251, 248, 248),#ce91fa) ;
+        
+    }
+.hero-container{
+
+    display:grid ;
+    
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    padding:  rem ;
+}
+
+.column-left{
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6rem;
+}
+.column-left h1{
+    
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.column-left p{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+button{
+    padding: 1rem 1rem;
+    font-size:1rem ;
+    font-weight: bold;
+    border: (126, 23, 23);
+    border-radius: 9rem;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#f0aecd,#4c1e55);
+    margin-bottom: -6em;
+}
+
+button:hover {
+    background: rgb(13, 0, 255);
+}
+
+.column-right{
+    
+    display :flex ;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.hero-image{
+    width: 50%;
+    height:60%;
+
+}
+
+@media screen and ( max-width: 785px)
+    {
+        .hero-container {
+            grid-template-columns: 1fr;
+        }
+    }
+
